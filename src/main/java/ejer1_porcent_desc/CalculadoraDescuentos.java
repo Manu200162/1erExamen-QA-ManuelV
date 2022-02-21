@@ -9,7 +9,7 @@ public class CalculadoraDescuentos {
          throw new Exception("sueldo incorrecto");
         }
         if(sueldo<=2000){
-            result="No se aplicara ningun descuento -- Total de sueldo restante: "+totalDesc;
+            result="No se aplicara ningun descuento -- Total de sueldo restante: "+sueldo;
         }else if(sueldo>2000 && sueldo<=4000){
             descuento=sueldo*0.05;
             totalDesc=sueldo-descuento;

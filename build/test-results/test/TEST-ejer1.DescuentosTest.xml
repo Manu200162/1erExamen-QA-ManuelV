@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ejer1.DescuentosTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-02-21T12:17:18" hostname="DESKTOP-2T6TAJ9" time="0.042">
+<testsuite name="ejer1.DescuentosTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-02-21T12:26:33" hostname="DESKTOP-2T6TAJ9" time="0.043">
   <properties/>
-  <testcase name="[1] -10" classname="ejer1.DescuentosTest" time="0.037"/>
-  <testcase name="[2] 0" classname="ejer1.DescuentosTest" time="0.0"/>
+  <testcase name="[1] 1, No se aplicara ningun descuento -- Total de sueldo restante: 1" classname="ejer1.DescuentosTest" time="0.029"/>
+  <testcase name="[2] 1999, No se aplicara ningun descuento -- Total de sueldo restante: 1999" classname="ejer1.DescuentosTest" time="0.0"/>
+  <testcase name="[3] 2000, No se aplicara ningun descuento -- Total de sueldo restante: 2000" classname="ejer1.DescuentosTest" time="0.001"/>
+  <testcase name="[4] 2001, Se aplica un descuento del 5% -- Total de sueldo restante: 1900.95" classname="ejer1.DescuentosTest" time="0.003"/>
+  <testcase name="[5] 3999, Se aplica un descuento del 5% -- Total de sueldo restante: 3799.05" classname="ejer1.DescuentosTest" time="0.0"/>
+  <testcase name="[6] 4000, Se aplica un descuento del 5% -- Total de sueldo restante: 3800.0" classname="ejer1.DescuentosTest" time="0.001"/>
+  <testcase name="[7] 4001, Se aplica un descuento del 15% -- Total de sueldo restante: 3400.85" classname="ejer1.DescuentosTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
