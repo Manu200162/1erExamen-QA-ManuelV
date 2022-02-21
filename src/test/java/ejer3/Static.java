@@ -1,19 +1,15 @@
-package ejer2;
+package ejer3;
 
 import ejer2_CRUD_Mock.Helpers;
 import ejer2_CRUD_Mock.RolesUsuario;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 
-public class RolesTests {
-
-//    PERMISSION ROLE : CRUD -  DD MM YYYY hh mm ss
- //   PERMISSION ROLE : CD - DD MM YYYY hh mm ss
-  //  PERMISSION ROLE : R -  DD MM YYYY hh mm ss
-  //  PERMISSION ROLE : CUD - DD MM YYYY hh mm ss
-
+public class Static {
     Helpers helpersMock= Mockito.mock(Helpers.class);
+    MockedStatic<Helpers>mock=Mockito.mockStatic(Helpers.class);
 
 
     @Test
@@ -63,5 +59,4 @@ public class RolesTests {
         Mockito.verify(helpersMock).correctUser("Lucky","lucky123");
         Mockito.verify(helpersMock).givePermissions("Lucky");
     }
-
 }
