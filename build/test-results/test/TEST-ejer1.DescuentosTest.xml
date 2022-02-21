@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ejer1.DescuentosTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-02-21T12:17:18" hostname="DESKTOP-2T6TAJ9" time="0.042">
+  <properties/>
+  <testcase name="[1] -10" classname="ejer1.DescuentosTest" time="0.037"/>
+  <testcase name="[2] 0" classname="ejer1.DescuentosTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
